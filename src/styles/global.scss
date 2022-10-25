@@ -1,12 +1,12 @@
 :root {
-  --blue: #273FAD;
-  --green: #3FAD27;
-  --red: 	#ad273f;
-  --background: #EBEBEB;
-  --shapes: #FFFFFF;
-  --text-title: #3D3D4D;
-  --text: #1C1C29;
-  --text-light: #A09CB1;
+  --blue: #273fad;
+  --green: #b91c1c;
+  --red: #ad273f;
+  --background: #27272a;
+  --shapes: #27272a;
+  --text-title: #e2e8f0;
+  --text: #e2e8f0;
+  --text-light: #a09cb1;
 }
 
 * {
@@ -17,10 +17,12 @@
 
 body {
   font: 16px "Poppins", Arial, sans-serif;
-  color: #121214;
+  color: #27272a;
+  background-color: #171717;
 }
 
-input, textarea {
+input,
+textarea {
   font-family: "Poppins";
 }
 
@@ -30,6 +32,7 @@ input, textarea {
   padding: 2.5rem 1rem;
 }
 
-button, .checkmark {
+button,
+.checkmark {
   cursor: pointer;
 }
